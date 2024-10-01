@@ -1,0 +1,30 @@
+title: ElseThrow 기술블로그
+email: jaykaybaek@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  프로그래밍, 백엔드와 관련한 주제를 가지고 포스팅합니다.
+baseurl: ""
+url: "https://jaycobcoder.github.io"
+github_username: jaycobcoder
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: java
+    css_class: 'highlight'
+    block:
+      line_numbers: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+theme_config:
+  date_format: "%Y년 %m월 %d일"
+
+permalink: /:year/:month/:day/:title/
+
+paginate: 20
+paginate_path: "/page/:num"

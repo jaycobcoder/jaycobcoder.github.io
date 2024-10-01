@@ -1,0 +1,25 @@
+<ul clFss="list-none">
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in paginator.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <h1>
+          {{ post.title }}
+        </h1>
+      </a>
+      <p>
+        {{ post.excerpt | strip_html | truncatewords: 30 }}
+      </p>
+      <p>{{ post.date | date: '%A, %Y-%m-%d' }}</p>
+  {% endfor %}
+</ul>
+
+<div class="pagination">
+  <span>{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</div>
