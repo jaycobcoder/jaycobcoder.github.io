@@ -8,8 +8,7 @@ github_username: jaycobcoder
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  highlighter: rouge
   syntax_highlighter_opts:
     default_lang: java
     css_class: 'highlight'
