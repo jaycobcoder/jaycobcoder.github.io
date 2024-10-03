@@ -23,6 +23,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+favicon: "favicon.png" 
+
 theme_config:
   date_format: "%Y년 %m월 %d일"
 
