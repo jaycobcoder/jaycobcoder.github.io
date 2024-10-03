@@ -7,8 +7,9 @@ url: "https://jaycobcoder.github.io"
 github_username: jaycobcoder
 
 markdown: kramdown
+highlighter: rouge
+
 kramdown:
-  highlighter: rouge
   syntax_highlighter_opts:
     default_lang: java
     css_class: 'highlight'
