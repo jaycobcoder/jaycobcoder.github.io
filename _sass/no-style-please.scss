@@ -173,6 +173,16 @@ footer {
   padding: 0;
 }
 
+.post-item {
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #efefef;
+}
+
+.post-item .post-date{
+  font-size: 85%;
+}
+
 pre table, pre table th, pre table td {
   border: none;
   border-collapse: collapse;
