@@ -10,9 +10,10 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
+  input: GFM
   syntax_highlighter_opts:
     default_lang: java
-    css_class: 'highlight'
+    css_class: 'syntax'
     block:
       line_numbers: true
 
