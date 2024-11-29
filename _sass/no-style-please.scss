@@ -214,6 +214,17 @@ pre table, pre table th, pre table td {
   cursor: default; /* Change cursor to default */
 }
 
+.identity {
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.identity a {
+  font: #000;
+  text-decoration: none;
+}
+
 @media (max-width: 450px) {
   .header {
     max-width: none;
@@ -226,7 +237,7 @@ pre table, pre table th, pre table td {
 
   .identity {
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 120%;
     font-weight: 700;
   }
 
