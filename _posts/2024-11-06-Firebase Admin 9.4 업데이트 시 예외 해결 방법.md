@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Firebase Cloud Messaging Java SDK 9.4 업데이트 시 고려해야할 부분"
+title: "Firebase Admin(FCM) 9.4+ 업데이트 시 예외 해결 방법"
 date: 2024-11-06
 categories: [라이브러리]
-tags: [라이브러리, FCM]
-description: "Firebase Cloud Messaging Java SDK 9.4 업데이트에 따른 주요 변경 사항과 예외 해결 방법을 제공합니다. HttpTransport 기본값의 Apache HTTP/2 전환으로 인해 Spring Boot 2.7 환경에서 발생한 NoClassDefFoundError 오류 원인을 분석하고, FirebaseOptions 설정을 통해 문제를 해결하는 방법을 소개합니다."
+tags: [라이브러리, FCM, Firebase Cloud Messaging]
+description: "Firebase Admin SDK 9.4 업데이트 후 발생하는 Apache HttpClient 관련 예외(ClassNotFoundException) 원인 분석과 Spring Boot 3 이하 환경에서 FirebaseOptions 설정으로 문제를 해결하는 방법을 제공합니다."
 ---
 ## 개요
 
